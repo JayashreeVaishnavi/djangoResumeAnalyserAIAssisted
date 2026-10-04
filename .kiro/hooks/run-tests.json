@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "pytest-on-save",
+      "trigger": "PostFileSave",
+      "matcher": "(analyzer|tests)/.*\\.py$",
+      "action": { "type": "command", "command": "python -m pytest -q" }
+    }
+  ]
+}

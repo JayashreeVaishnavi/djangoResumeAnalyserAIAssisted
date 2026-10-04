@@ -1,0 +1,36 @@
+# Implementation plan
+
+- [ ] 1. Project scaffold
+  - Django project `config`, app `analyzer`, local-only settings (SQLite, OLLAMA_URL, LLM_MODEL, EMBED_MODEL), requirements.txt, pytest.ini
+  - _Requirements: 8.1_
+- [ ] 2. Data models and admin
+  - Implement all six models, migrations, admin registration with AgentRun inline
+  - _Requirements: 7.2, 7.3_
+- [ ] 3. LLM client
+  - `llm.py` with `chat_json` (schema format, retries with error feedback, token and latency meta) and `embed`
+  - Map connection errors to an actionable message; add `check_llm` management command
+  - _Requirements: 2.3, 8.2, 8.3_
+- [ ] 4. Schemas and text parsing
+  - `schemas.py`; `parsing.py` for PDF (pdfplumber), DOCX (python-docx), TXT
+  - _Requirements: 1.2, 2.1, 2.2_
+- [ ] 5. Tools module with unit tests
+  - chunk_text, semantic_search, normalize_skill, years_of_experience, ats_check, verify_evidence
+  - _Requirements: 3.2, 3.3, 5.1, 5.2_
+- [ ] 6. Scoring module with unit tests
+  - Coverage, semantic rescale, final weighted score
+  - _Requirements: 4.1, 4.2, 4.3_
+- [ ] 7. Agents
+  - Parser, JD, Matcher, Rewriter, Reviewer prompts with injection-safe delimiters
+  - _Requirements: 2.1, 2.2, 3.1, 6.1, 6.2_
+- [ ] 8. Pipeline orchestration
+  - Run steps in order, update `stage`, write AgentRun and ToolCall rows, rewriter/reviewer loop, set report and score, fail gracefully
+  - _Requirements: 3, 4, 6, 7.2, 8.3_
+- [ ] 9. Views, URLs and templates
+  - Upload form, detail page with polling, status JSON, accept/reject endpoints, trace table
+  - _Requirements: 1.1, 1.3, 6.3, 7.1, 7.3_
+- [ ] 10. End-to-end tests with mocked LLM
+  - Pipeline run produces a score, suggestions, traces; blocked suggestion path; unverified evidence path
+  - _Requirements: 3.3, 6.2_
+- [ ] 11. README
+  - Setup (Ollama, models, venv), run instructions, architecture diagram, sample screenshots, resume bullets
+  - _Requirements: 8_
