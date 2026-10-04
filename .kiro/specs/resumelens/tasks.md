@@ -3,7 +3,7 @@
 - [x] 1. Project scaffold
   - Django project `config`, app `analyzer`, local-only settings (SQLite, OLLAMA_URL, LLM_MODEL, EMBED_MODEL), requirements.txt, pytest.ini
   - _Requirements: 8.1_
-- [ ] 2. Data models and admin
+- [x] 2. Data models and admin
   - Implement all six models, migrations, admin registration with AgentRun inline
   - _Requirements: 7.2, 7.3_
 - [ ] 3. LLM client
