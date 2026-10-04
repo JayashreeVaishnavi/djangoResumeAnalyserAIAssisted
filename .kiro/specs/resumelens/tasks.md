@@ -10,13 +10,13 @@
   - `llm.py` with `chat_json` (schema format, retries with error feedback, token and latency meta) and `embed`
   - Map connection errors to an actionable message; add `check_llm` management command
   - _Requirements: 2.3, 8.2, 8.3_
-- [ ] 4. Schemas and text parsing
+- [x] 4. Schemas and text parsing
   - `schemas.py`; `parsing.py` for PDF (pdfplumber), DOCX (python-docx), TXT
   - _Requirements: 1.2, 2.1, 2.2_
-- [ ] 5. Tools module with unit tests
+- [x] 5. Tools module with unit tests
   - chunk_text, semantic_search, normalize_skill, years_of_experience, ats_check, verify_evidence
   - _Requirements: 3.2, 3.3, 5.1, 5.2_
-- [ ] 6. Scoring module with unit tests
+- [x] 6. Scoring module with unit tests
   - Coverage, semantic rescale, final weighted score
   - _Requirements: 4.1, 4.2, 4.3_
 - [ ] 7. Agents

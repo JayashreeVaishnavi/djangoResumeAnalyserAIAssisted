@@ -36,6 +36,42 @@
         "chatSessionId": "sess_5c374356-b272-47a5-b723-a3e82dca1f9e",
         "timestamp": 1791117021876
       }
+    ],
+    "4. Schemas and text parsing": [
+      {
+        "executionId": "af4741a7-88e6-418b-a447-12270d08a735",
+        "chatSessionId": "sess_d91cb70b-cebb-426a-a8a7-e3460bb5360d",
+        "timestamp": 1791117387655
+      },
+      {
+        "executionId": "af4741a7-88e6-418b-a447-12270d08a735",
+        "chatSessionId": "sess_d91cb70b-cebb-426a-a8a7-e3460bb5360d",
+        "timestamp": 1791117560576
+      }
+    ],
+    "5. Tools module with unit tests": [
+      {
+        "executionId": "89bb0ae8-24bc-47df-9ff8-b696d10a8ddb",
+        "chatSessionId": "sess_1a999e1a-45f2-4d56-9e05-4529e7932231",
+        "timestamp": 1791117619091
+      },
+      {
+        "executionId": "89bb0ae8-24bc-47df-9ff8-b696d10a8ddb",
+        "chatSessionId": "sess_1a999e1a-45f2-4d56-9e05-4529e7932231",
+        "timestamp": 1791118164264
+      }
+    ],
+    "6. Scoring module with unit tests": [
+      {
+        "executionId": "5e00d91d-1753-4265-a92c-6e75689ba445",
+        "chatSessionId": "sess_cc9ed5f0-0a53-46fe-b077-9ab4b0e8ef38",
+        "timestamp": 1791118527714
+      },
+      {
+        "executionId": "5e00d91d-1753-4265-a92c-6e75689ba445",
+        "chatSessionId": "sess_cc9ed5f0-0a53-46fe-b077-9ab4b0e8ef38",
+        "timestamp": 1791118724925
+      }
     ]
   }
 }
