@@ -24,6 +24,18 @@
         "chatSessionId": "sess_2a0bfa8b-dc06-440e-9aab-1ea245f323b8",
         "timestamp": 1791114548443
       }
+    ],
+    "3. LLM client": [
+      {
+        "executionId": "0fce8b00-203d-40b8-a15e-050cb95d3922",
+        "chatSessionId": "sess_5c374356-b272-47a5-b723-a3e82dca1f9e",
+        "timestamp": 1791115741641
+      },
+      {
+        "executionId": "0fce8b00-203d-40b8-a15e-050cb95d3922",
+        "chatSessionId": "sess_5c374356-b272-47a5-b723-a3e82dca1f9e",
+        "timestamp": 1791117021876
+      }
     ]
   }
 }

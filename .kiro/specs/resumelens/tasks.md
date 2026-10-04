@@ -6,7 +6,7 @@
 - [x] 2. Data models and admin
   - Implement all six models, migrations, admin registration with AgentRun inline
   - _Requirements: 7.2, 7.3_
-- [ ] 3. LLM client
+- [x] 3. LLM client
   - `llm.py` with `chat_json` (schema format, retries with error feedback, token and latency meta) and `embed`
   - Map connection errors to an actionable message; add `check_llm` management command
   - _Requirements: 2.3, 8.2, 8.3_
