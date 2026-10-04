@@ -1,6 +1,6 @@
 # Implementation plan
 
-- [ ] 1. Project scaffold
+- [x] 1. Project scaffold
   - Django project `config`, app `analyzer`, local-only settings (SQLite, OLLAMA_URL, LLM_MODEL, EMBED_MODEL), requirements.txt, pytest.ini
   - _Requirements: 8.1_
 - [ ] 2. Data models and admin
